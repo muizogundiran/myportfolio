@@ -1,4 +1,6 @@
 *.min.js
+*.css
+*.min.css
 **/node_modules/**
 
 # webfont demo styles

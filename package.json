@@ -45,6 +45,11 @@
     "@commitlint/cli": "^16.0.2",
     "@commitlint/config-angular": "^16.0.0",
     "@commitlint/config-conventional": "^16.0.0",
-    "husky": "^7.0.4"
+    "@typescript-eslint/eslint-plugin": "^5.10.0",
+    "@typescript-eslint/parser": "^5.10.0",
+    "eslint": "^8.7.0",
+    "eslint-plugin-react": "^7.28.0",
+    "husky": "^7.0.4",
+    "prettier": "^2.5.1"
   }
 }
