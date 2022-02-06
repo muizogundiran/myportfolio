@@ -1,0 +1,9 @@
+
+body::-webkit-scrollbar{
+    background-color: #181626;
+    width:0.3em;
+    height: 0.3em;
+}
+body::-webkit-scrollbar-thumb{
+    background-color: inherit;
+}
