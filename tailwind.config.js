@@ -30,6 +30,7 @@ module.exports = {
       theme: {
         dark: "#181626",
         myRed: "#A63F5A",
+        myYellow: "#F29C50",
       },
     },
     extend: {},

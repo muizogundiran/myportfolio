@@ -5,7 +5,9 @@ interface Props {
 }
 
 const Section: FunctionComponent<Props> = ({ children }) => {
-  return <div className='p2 flex items-center text-justify'>{children}</div>;
+  return (
+    <div className='section flex items-center text-justify'>{children}</div>
+  );
 };
 
 export default Section;

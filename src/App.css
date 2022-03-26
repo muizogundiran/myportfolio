@@ -3,13 +3,53 @@
     box-sizing: border-box;
 }
 body { 
-    background-color:  rgb(24 22 38 / var(--tw-bg-opacity));
+    background-color:  #181626;
 }
 body::-webkit-scrollbar{
     background-color: #181626;
+    opacity: 0.5;
     width:0.3em;
     height: 0.3em;
 }
 body::-webkit-scrollbar-thumb{
+    background-color: red;
     background-color: inherit;
 }
+
+.vertical-line::after {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 90px;
+    margin: 0px auto;
+    background-color: slategray;
+}
+.line::before {
+    content: "";
+    display: block;
+    width: 30px;
+    height: 1px;
+    margin: 0px auto;
+    background-color: #A63F5A;
+    transform: translateX(-40px);
+}
+.line::after {
+    content: "";
+    display: block;
+    width: 30px;
+    height: 1px;
+    margin: 0px auto;
+    background-color: #A63F5A;
+    transform: translateX(10px);
+}
+.title {
+    font-family: 'Charmonman', cursive;
+}
+/* .footer-line::after{
+    content: "";
+    display: block;
+    width: 80vw;
+    height: 1px;
+    margin: 0px auto;
+    background-color: slategray;
+} */
