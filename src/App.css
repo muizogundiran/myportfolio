@@ -1,4 +1,10 @@
-
+*{
+    font-family: 'Nunito', sans-serif;
+    box-sizing: border-box;
+}
+body { 
+    background-color:  rgb(24 22 38 / var(--tw-bg-opacity));
+}
 body::-webkit-scrollbar{
     background-color: #181626;
     width:0.3em;

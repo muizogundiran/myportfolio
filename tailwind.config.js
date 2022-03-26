@@ -1,17 +1,37 @@
+const colors = require("tailwindcss/colors");
+
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
-  darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {},
     colors: {
-      "theme-100": "#F2727D",
-      "theme-200": "#A63F5A",
-      "theme-300": "#181626",
-      "theme-400": "#F29C50",
-      "theme-500": "#D98859",
+      transparent: "transparent",
+      slate: colors.slate,
+      gray: colors.gray,
+      zinc: colors.zinc,
+      neutral: colors.neutral,
+      stone: colors.stone,
+      red: colors.red,
+      orange: colors.orange,
+      amber: colors.amber,
+      yellow: colors.yellow,
+      lime: colors.lime,
+      green: colors.green,
+      emerald: colors.emerald,
+      teal: colors.teal,
+      cyan: colors.cyan,
+      sky: colors.sky,
+      blue: colors.blue,
+      indigo: colors.indigo,
+      violet: colors.violet,
+      purple: colors.purple,
+      fuchsia: colors.fuchsia,
+      pink: colors.pink,
+      rose: colors.rose,
+      theme: {
+        dark: "#181626",
+        myRed: "#A63F5A",
+      },
     },
-  },
-  variants: {
     extend: {},
   },
   plugins: [],

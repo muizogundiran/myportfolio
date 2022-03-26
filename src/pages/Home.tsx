@@ -1,9 +1,15 @@
 import React from "react";
+import Header from "../components/Header";
+import Navbar from "../components/Navbar";
+import Section from "../components/Section";
 
 const Home = () => {
   return (
-    <div className='home w-full bg-theme-300 text-gray-50 '>
-      <p>Home Page</p>
+    <div className='home w-full h-screen bg-theme-dark text-gray-50'>
+      <Navbar />
+      <Section>
+        <Header />
+      </Section>
     </div>
   );
 };
