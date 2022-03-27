@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 // import { Dialog, Transition } from "@headlessui/react";
 import Logo from "../assets/images/me.jpg";
 
@@ -6,7 +7,6 @@ const Navbar = () => {
   // const [isOpen, setIsOpen] = useState(false);
   const [nav, setNav] = useState(false);
   const [lastScroll, setLastScroll] = useState(0);
-  console.log(lastScroll);
   window.onscroll = function () {
     const currentScroll =
       document.documentElement.scrollTop || document.body.scrollTop; // Get Current Scroll Value
@@ -14,14 +14,10 @@ const Navbar = () => {
     if (currentScroll > 0 && lastScroll <= currentScroll) {
       setLastScroll(currentScroll);
       // document.getElementById("scrollLoc").innerHTML = "Scrolling DOWN";
-      console.log("Scrolling DOWN");
-
       setNav(true);
     } else {
       setLastScroll(currentScroll);
       // document.getElementById("scrollLoc").innerHTML = "Scrolling UP";
-      console.log("Scrolling UP");
-
       setNav(false);
     }
   };
@@ -61,9 +57,11 @@ const Navbar = () => {
             d='M4 6h16M4 12h16m-7 6h7'
           />
         </svg> */}
-        <span className='text-lg p-1 px-3 border-2 rounded-lg border-theme-myRed flex justify-center items-center  hover:bg-theme-myRed hover:bg-opacity-20 text-theme-myRed cursor-pointer'>
-          Resume
-        </span>
+        <Link to='/resume'>
+          <span className='text-lg p-1 px-3 border-2 rounded-lg border-theme-myRed flex justify-center items-center  hover:bg-theme-myRed hover:bg-opacity-20 text-theme-myRed cursor-pointer'>
+            Resume
+          </span>
+        </Link>
       </div>
       {/* <Transition appear show={isOpen} as={Fragment}>
         <Dialog
