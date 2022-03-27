@@ -17,7 +17,7 @@ const About = () => {
         <div className='line w-1 rounded-full p-1 border-2 border-theme-myRed'></div>
       </div>
       <div className='flex flex-row justify-between items-start space-y-4 space-x-10'>
-        <div className='flex flex-col justify-left items-left w-3/6 px-4 space-y-4'>
+        <div className='flex flex-col justify-left items-left w-4/6 px-4 pt-8 space-y-4'>
           <span className='text-xl font-medium text-left text-gray-400 '>
             Hello! My name is Muiz and I enjoy creating things that live on the
             internet. Lorem ipsum dolor sit amet consectetur adipisicing elit.

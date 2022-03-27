@@ -1,46 +1,236 @@
-import React, { FunctionComponent, useRef, useState } from "react";
-import { Canvas } from "@react-three/fiber";
-import * as THREE from "three";
-interface LightProps {
-  brightness: number;
-  color: string;
-}
-
-const Light: FunctionComponent<LightProps> = ({ brightness, color }) => {
-  return (
-    <rectAreaLight
-      width={3}
-      height={3}
-      color={color}
-      intensity={brightness}
-      position={[-2, 0, 5]}
-      //   lookAt={[0, 0, 0]}
-      //   penumbra={1}
-      castShadow
-    />
-  );
-};
-function ItsSphere() {
-  return (
-    <mesh visible userData={{ test: "hello" }} position={[0, 0, 0]} castShadow>
-      <sphereGeometry attach='geometry' args={[3, 62, 62]} />
-      <meshStandardMaterial
-        attach='material'
-        color='white'
-        transparent
-        roughness={0.1}
-        metalness={0.1}
-      />
-    </mesh>
-  );
-}
+import React from "react";
+// import { Canvas } from "@react-three/fiber";
+// import * as THREE from "three";
 
 const Sphere = () => {
   return (
-    <Canvas>
-      <Light brightness={10} color={"white"} />
-      <ItsSphere />
-    </Canvas>
+    <div className='skills-charts'>
+      <div id='myCanvasContainer'>
+        <canvas width='500' height='500' id='myCanvas'>
+          <div id='tags'>
+            <ul>
+              <li>
+                {" "}
+                <a
+                  data-weight='25'
+                  href='https://en.wikipedia.org/wiki/HTML'
+                  target='_blank'
+                  rel='noreferrer'
+                >
+                  HTML
+                </a>
+              </li>
+              <li>
+                <a
+                  data-weight='25'
+                  href='https://en.wikipedia.org/wiki/Cascading_Style_Sheets'
+                  target='_blank'
+                  rel='noreferrer'
+                >
+                  CSS
+                </a>
+              </li>
+              <li>
+                <a
+                  data-weight='25'
+                  href='https://en.wikipedia.org/wiki/JavaScript'
+                  target='_blank'
+                  rel='noreferrer'
+                >
+                  ES5/ES6
+                </a>
+              </li>
+              <li>
+                <a
+                  data-weight='25'
+                  href='https://en.wikipedia.org/wiki/JavaScript'
+                  target='_blank'
+                  rel='noreferrer'
+                >
+                  TypeScript
+                </a>
+              </li>
+              <li>
+                <a
+                  data-weight='24'
+                  href='https://en.wikipedia.org/wiki/Representational_state_transfer'
+                  target='_blank'
+                  rel='noreferrer'
+                >
+                  REST
+                </a>
+              </li>
+              <li>
+                <a
+                  data-weight='14'
+                  href='https://en.wikipedia.org/wiki/JSON'
+                  target='_blank'
+                  rel='noreferrer'
+                >
+                  JSON
+                </a>
+              </li>
+              <li>
+                <a
+                  data-weight='13'
+                  href='https://en.wikipedia.org/wiki/XML'
+                  target='_blank'
+                  rel='noreferrer'
+                >
+                  GSAP
+                </a>
+              </li>
+              <li>
+                <a
+                  data-weight='14'
+                  href='https://en.wikipedia.org/wiki/Data_science'
+                  target='_blank'
+                  rel='noreferrer'
+                >
+                  Data Science
+                </a>
+              </li>
+              <li>
+                <a
+                  data-weight='26'
+                  href='https://en.wikipedia.org/wiki/WordPress'
+                  target='_blank'
+                  rel='noreferrer'
+                >
+                  Wordpress
+                </a>
+              </li>
+              <li>
+                <a
+                  data-weight='26'
+                  href='https://en.wikipedia.org/wiki/PHP'
+                  target='_blank'
+                  rel='noreferrer'
+                >
+                  PHP
+                </a>
+              </li>
+              <li>
+                <a
+                  data-weight='26'
+                  href='https://en.wikipedia.org/wiki/Python_(programming_language)'
+                  target='_blank'
+                  rel='noreferrer'
+                >
+                  Python
+                </a>
+              </li>
+              <li>
+                <a
+                  data-weight='21'
+                  href='https://en.wikipedia.org/wiki/Node.js'
+                  target='_blank'
+                  rel='noreferrer'
+                >
+                  Node JS
+                </a>
+              </li>
+              <li>
+                <a
+                  data-weight='17'
+                  href='https://en.wikipedia.org/wiki/Git'
+                  target='_blank'
+                  rel='noreferrer'
+                >
+                  Git
+                </a>
+              </li>
+              <li>
+                <a data-weight='17' href='' target='_blank'>
+                  _lodash
+                </a>
+              </li>
+              <li>
+                <a
+                  data-weight='23'
+                  href='https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework)'
+                  target='_blank'
+                  rel='noreferrer'
+                >
+                  Bootstrap
+                </a>
+              </li>
+              <li>
+                <a
+                  data-weight='15'
+                  href='https://en.wikipedia.org/wiki/Sass_(stylesheet_language)'
+                  target='_blank'
+                  rel='noreferrer'
+                >
+                  SASS
+                </a>
+              </li>
+              <li>
+                <a
+                  data-weight='24'
+                  href='https://reactjs.org/'
+                  target='_blank'
+                  rel='noreferrer'
+                >
+                  ReactJS
+                </a>
+              </li>
+              <li>
+                <a
+                  data-weight='12'
+                  href='https://en.wikipedia.org/wiki/JQuery'
+                  target='_blank'
+                  rel='noreferrer'
+                >
+                  jQuery
+                </a>
+              </li>
+              <li>
+                <a
+                  data-weight='26'
+                  href='http://mongoosejs.com/'
+                  target='_blank'
+                  rel='noreferrer'
+                >
+                  SQl
+                </a>
+              </li>
+              <li>
+                <a
+                  data-weight='19'
+                  href='http://gulpjs.com/'
+                  target='_blank'
+                  rel='noreferrer'
+                >
+                  Gulp
+                </a>
+              </li>
+              <li>
+                <a
+                  data-weight='19'
+                  href='https://www.npmjs.com/'
+                  target='_blank'
+                  rel='noreferrer'
+                >
+                  npm
+                </a>
+              </li>
+              <li>
+                <a
+                  data-weight='19'
+                  href='https://en.wikipedia.org/wiki/BEM'
+                  target='_blank'
+                  rel='noreferrer'
+                >
+                  BEM
+                </a>
+              </li>
+            </ul>
+          </div>
+        </canvas>
+      </div>
+      <div className='clear'></div>
+    </div>
   );
 };
 
