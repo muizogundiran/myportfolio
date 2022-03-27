@@ -60,7 +60,7 @@ const Contact = () => {
           >
             <path
               fill='none'
-              stroke='#4831d4'
+              stroke='#A63F5A'
               strokeWidth='2'
               strokeMiterlimit='0'
               d='M.043 11.119h70.714M60.917 1.319l9.8 9.8-9.8 9.8'
