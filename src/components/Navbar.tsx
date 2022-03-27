@@ -1,7 +1,5 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
-// import { Dialog, Transition } from "@headlessui/react";
-import Logo from "../assets/images/me.jpg";
+import muizResume from "../assets/images/muizResume.pdf";
 
 const Navbar = () => {
   // const [isOpen, setIsOpen] = useState(false);
@@ -57,11 +55,11 @@ const Navbar = () => {
             d='M4 6h16M4 12h16m-7 6h7'
           />
         </svg> */}
-        <Link to='/resume'>
+        <a href={muizResume}>
           <span className='text-lg p-1 px-3 border-2 rounded-lg border-theme-myRed flex justify-center items-center  hover:bg-theme-myRed hover:bg-opacity-20 text-theme-myRed cursor-pointer'>
             Resume
           </span>
-        </Link>
+        </a>
       </div>
       {/* <Transition appear show={isOpen} as={Fragment}>
         <Dialog
