@@ -2287,11 +2287,6 @@
   dependencies:
     "@types/jest" "*"
 
-"@types/three@^0.139.0":
-  version "0.139.0"
-  resolved "https://registry.yarnpkg.com/@types/three/-/three-0.139.0.tgz#69af1f0c52f8eea390f513e05478af1dd7f49e6f"
-  integrity sha512-4V/jZhyq7Mv05coUzxL3bz8AuBOSi/1F0RY7ujisHTV0Amy/fnYJ+s7TSJ1/hXjZukSkpuFRgV+wvWUEMbsMbQ==
-
 "@types/trusted-types@^2.0.2":
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/@types/trusted-types/-/trusted-types-2.0.2.tgz#fc25ad9943bcac11cceb8168db4f275e0e72e756"
@@ -8352,7 +8347,7 @@ react-router@6.2.2:
   dependencies:
     history "^5.2.0"
 
-"react-scripts@5  .0.0":
+react-scripts@5.0.0:
   version "5.0.0"
   resolved "https://registry.yarnpkg.com/react-scripts/-/react-scripts-5.0.0.tgz#6547a6d7f8b64364ef95273767466cc577cb4b60"
   integrity sha512-3i0L2CyIlROz7mxETEdfif6Sfhh9Lfpzi10CtcGs1emDQStmZfWjJbAIMtRD0opVUjQuFWqHZyRZ9PPzKCFxWg==
@@ -8783,6 +8778,11 @@ schema-utils@^4.0.0:
     ajv "^8.8.0"
     ajv-formats "^2.1.1"
     ajv-keywords "^5.0.0"
+
+scroll-snap@^4.0.3:
+  version "4.0.3"
+  resolved "https://registry.yarnpkg.com/scroll-snap/-/scroll-snap-4.0.3.tgz#015ef1e2661249acfe99c673408a3710f74c7b3d"
+  integrity sha512-7am2JXqY/0jHN9+3b2zhZtm55NmzEQhZTXZBIdC/fVb6aVN5nonjbRpf+OghU9LhguJB+rq5ty9SmQcYzMvMxw==
 
 select-hose@^2.0.0:
   version "2.0.0"
@@ -9445,11 +9445,6 @@ text-table@^0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/text-table/-/text-table-0.2.0.tgz#7f5ee823ae805207c00af2df4a84ec3fcfa570b4"
   integrity sha1-f17oI66AUgfACvLfSoTsP8+lcLQ=
-
-three@^0.139.0:
-  version "0.139.0"
-  resolved "https://registry.yarnpkg.com/three/-/three-0.139.0.tgz#4805eeb4cde85d8a82b6048088230f8ce5b75375"
-  integrity sha512-hZ4LkCjgoEM82WLaOVptDKGpB3SkEyuJP2OHe36AFO8hS2I6CrEiNanXj7wwR3wIPT7V5wi5Y5pFnncS5SVHgQ==
 
 throat@^6.0.1:
   version "6.0.1"

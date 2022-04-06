@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import muizResume from "../assets/images/muizResume.pdf";
+import muizResume from "../assets/images/MuizOgundiran.pdf";
 
 const Navbar = () => {
   // const [isOpen, setIsOpen] = useState(false);
@@ -30,7 +30,7 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`flex items-center justify-between fixed top-0 w-screen z-40 transition-all duration-300 bg-theme-dark py-6 px-16  ${
+      className={`flex items-center justify-between fixed top-0 w-screen z-40 transition-all duration-300 bg-theme-dark py-6 px-8 lg:px-16  ${
         nav ? "hidden" : ""
       }`}
     >

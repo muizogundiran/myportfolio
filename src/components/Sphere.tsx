@@ -52,88 +52,38 @@ const Sphere = () => {
               </li>
               <li>
                 <a
-                  data-weight='24'
-                  href='https://en.wikipedia.org/wiki/Representational_state_transfer'
+                  data-weight='25'
+                  href='https://tailwindcss.com/'
                   target='_blank'
                   rel='noreferrer'
                 >
-                  REST
+                  TailwindCss
                 </a>
               </li>
               <li>
                 <a
-                  data-weight='14'
-                  href='https://en.wikipedia.org/wiki/JSON'
+                  data-weight='25'
+                  href='https://nodejs.org/en/'
                   target='_blank'
                   rel='noreferrer'
                 >
-                  JSON
+                  NodeJS
                 </a>
               </li>
               <li>
                 <a
-                  data-weight='13'
-                  href='https://en.wikipedia.org/wiki/XML'
+                  data-weight='25'
+                  href='https://reactjs.org/'
                   target='_blank'
                   rel='noreferrer'
                 >
-                  GSAP
+                  React
                 </a>
               </li>
               <li>
                 <a
-                  data-weight='14'
-                  href='https://en.wikipedia.org/wiki/Data_science'
-                  target='_blank'
-                  rel='noreferrer'
-                >
-                  Data Science
-                </a>
-              </li>
-              <li>
-                <a
-                  data-weight='26'
-                  href='https://en.wikipedia.org/wiki/WordPress'
-                  target='_blank'
-                  rel='noreferrer'
-                >
-                  Wordpress
-                </a>
-              </li>
-              <li>
-                <a
-                  data-weight='26'
-                  href='https://en.wikipedia.org/wiki/PHP'
-                  target='_blank'
-                  rel='noreferrer'
-                >
-                  PHP
-                </a>
-              </li>
-              <li>
-                <a
-                  data-weight='26'
-                  href='https://en.wikipedia.org/wiki/Python_(programming_language)'
-                  target='_blank'
-                  rel='noreferrer'
-                >
-                  Python
-                </a>
-              </li>
-              <li>
-                <a
-                  data-weight='21'
-                  href='https://en.wikipedia.org/wiki/Node.js'
-                  target='_blank'
-                  rel='noreferrer'
-                >
-                  Node JS
-                </a>
-              </li>
-              <li>
-                <a
-                  data-weight='17'
-                  href='https://en.wikipedia.org/wiki/Git'
+                  data-weight='25'
+                  href='https://git-scm.com/'
                   target='_blank'
                   rel='noreferrer'
                 >
@@ -141,88 +91,103 @@ const Sphere = () => {
                 </a>
               </li>
               <li>
-                <a data-weight='17' href='' target='_blank'>
-                  _lodash
+                <a
+                  data-weight='25'
+                  href='https://graphql.org/'
+                  target='_blank'
+                  rel='noreferrer'
+                >
+                  GraphQL
                 </a>
               </li>
               <li>
                 <a
-                  data-weight='23'
-                  href='https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework)'
+                  data-weight='25'
+                  href='https://developer.android.com/'
                   target='_blank'
                   rel='noreferrer'
                 >
-                  Bootstrap
+                  Android
                 </a>
               </li>
               <li>
                 <a
-                  data-weight='15'
-                  href='https://en.wikipedia.org/wiki/Sass_(stylesheet_language)'
+                  data-weight='25'
+                  href='https://typeorm.io/'
                   target='_blank'
                   rel='noreferrer'
                 >
-                  SASS
+                  TypeORM
                 </a>
               </li>
               <li>
                 <a
-                  data-weight='24'
-                  href='https://reactjs.org/'
+                  data-weight='25'
+                  href='https://reactnative.dev/'
                   target='_blank'
                   rel='noreferrer'
                 >
-                  ReactJS
+                  React Native
                 </a>
               </li>
               <li>
                 <a
-                  data-weight='12'
-                  href='https://en.wikipedia.org/wiki/JQuery'
+                  data-weight='25'
+                  href='https://www.mongodb.com/'
                   target='_blank'
                   rel='noreferrer'
                 >
-                  jQuery
+                  MongoDB
                 </a>
               </li>
               <li>
                 <a
-                  data-weight='26'
-                  href='http://mongoosejs.com/'
+                  data-weight='25'
+                  href='https://developer.apple.com/tutorials/swiftui'
                   target='_blank'
                   rel='noreferrer'
                 >
-                  SQl
+                  SwiftUI
                 </a>
               </li>
               <li>
                 <a
-                  data-weight='19'
-                  href='http://gulpjs.com/'
+                  data-weight='25'
+                  href='https://kotlinlang.org/docs/android-overview.html'
                   target='_blank'
                   rel='noreferrer'
                 >
-                  Gulp
+                  Kotlin
                 </a>
               </li>
               <li>
                 <a
-                  data-weight='19'
-                  href='https://www.npmjs.com/'
+                  data-weight='25'
+                  href='https://www.framer.com/motion/'
                   target='_blank'
                   rel='noreferrer'
                 >
-                  npm
+                  Framer Motion
                 </a>
               </li>
               <li>
                 <a
-                  data-weight='19'
-                  href='https://en.wikipedia.org/wiki/BEM'
+                  data-weight='25'
+                  href='https://expressjs.com/'
                   target='_blank'
                   rel='noreferrer'
                 >
-                  BEM
+                  Express
+                </a>
+              </li>
+              <li>
+                <a
+                  data-weight='25'
+                  href='https://copilot.github.com/'
+                  target='_blank'
+                  rel='noreferrer'
+                >
+                  Github Copilot
                 </a>
               </li>
             </ul>
