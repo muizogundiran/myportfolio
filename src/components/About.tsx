@@ -1,7 +1,7 @@
-import React, { useState } from "react";
+import React, { useState, FunctionComponent } from "react";
 import Sphere from "./Sphere";
 
-const About = () => {
+const About: FunctionComponent = () => {
   const technologies = useState([
     "React",
     "TypeScript",

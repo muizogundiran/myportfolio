@@ -1,5 +1,5 @@
-import React, { useEffect } from "react";
-const Contact = () => {
+import React, { useEffect, FunctionComponent } from "react";
+const Contact: FunctionComponent = () => {
   useEffect(() => {
     console.log(process.env);
   });

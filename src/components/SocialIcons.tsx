@@ -1,6 +1,6 @@
-import React from "react";
+import React, { FunctionComponent } from "react";
 
-const SocialIcons = () => {
+const SocialIcons: FunctionComponent = () => {
   return (
     <span className='flex flex-col justify-center items-center space-y-6'>
       <a

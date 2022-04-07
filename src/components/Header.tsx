@@ -1,6 +1,6 @@
-import React from "react";
+import React, { FunctionComponent } from "react";
 // import SocialIcons from "./SocialIcons";
-const Header = () => {
+const Header: FunctionComponent = () => {
   return (
     <div className='flex flex-col h-full items-left p-10 py-32 lg:p-40 pb-0'>
       <span className='text-xl text-theme-myRed font-bold my-2 '>

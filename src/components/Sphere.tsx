@@ -1,8 +1,8 @@
-import React from "react";
+import React, { FunctionComponent } from "react";
 // import { Canvas } from "@react-three/fiber";
 // import * as THREE from "three";
 
-const Sphere = () => {
+const Sphere: FunctionComponent = () => {
   return (
     <div className='skills-charts'>
       <div id='myCanvasContainer'>

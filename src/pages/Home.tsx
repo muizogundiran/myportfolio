@@ -1,4 +1,4 @@
-import React from "react";
+import React, { FunctionComponent } from "react";
 import About from "../components/About";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
@@ -7,7 +7,7 @@ import Navbar from "../components/Navbar";
 import Section from "../components/Section";
 import SocialIcons from "../components/SocialIcons";
 
-const Home = () => {
+const Home: FunctionComponent = () => {
   return (
     <div className='home w-full text-gray-50 py-4'>
       <Navbar />

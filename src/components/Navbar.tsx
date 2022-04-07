@@ -1,7 +1,7 @@
-import React, { useState } from "react";
+import React, { useState, FunctionComponent } from "react";
 import muizResume from "../assets/images/MuizOgundiran.pdf";
 
-const Navbar = () => {
+const Navbar: FunctionComponent = () => {
   // const [isOpen, setIsOpen] = useState(false);
   const [nav, setNav] = useState(false);
   const [lastScroll, setLastScroll] = useState(0);
